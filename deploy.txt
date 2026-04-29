@@ -1,0 +1,54 @@
+=============================================
+DEPLOYMENT INSTRUCTIONS FOR PORTFOLIO WEBSITE
+=============================================
+
+Your portfolio is a "Static Website", meaning it consists entirely of plain HTML, CSS, and JavaScript files. It does not require a backend server or a build process to run. This makes it incredibly easy and free to deploy!
+
+Here are the three best and easiest ways to deploy your portfolio:
+
+---------------------------------------------
+OPTION 1: GitHub Pages (Recommended)
+---------------------------------------------
+If you already use GitHub to store your code, this is the best option.
+
+1. Create a new repository on GitHub (e.g., named "portfolio").
+2. Upload all your project files (index.html, style.css, script.js, etc.) to this repository.
+3. Go to the repository's "Settings" tab on GitHub.
+4. On the left sidebar, click on "Pages" (under the "Code and automation" section).
+5. Under the "Build and deployment" section:
+   - Source: Deploy from a branch
+   - Branch: Select `main` (or `master`) and keep the folder as `/(root)`.
+6. Click "Save".
+7. Wait about 1-2 minutes, refresh the page, and GitHub will provide you with a live link to your website (usually https://[your-username].github.io/[repo-name]).
+
+---------------------------------------------
+OPTION 2: Vercel (Easiest Drag & Drop)
+---------------------------------------------
+Vercel is great for fast deployments and gives you a nice `.vercel.app` domain.
+
+1. Go to https://vercel.com/ and sign up/log in (you can use your GitHub account).
+2. Go to your Dashboard and click "Add New..." -> "Project".
+3. You have two choices:
+   - Git Integration: Import your GitHub repository directly.
+   - Drag & Drop: You can literally drag your entire `portfolio` folder from your computer and drop it into the Vercel dashboard.
+4. Keep all default settings (Framework Preset: Other) and click "Deploy".
+5. Within seconds, your site will be live with a shareable URL!
+
+---------------------------------------------
+OPTION 3: Netlify
+---------------------------------------------
+Similar to Vercel, very straightforward.
+
+1. Go to https://www.netlify.com/ and log in.
+2. In your "Team overview" or "Sites" page, look for the "Add new site" button.
+3. Select "Deploy manually".
+4. Drag and drop your `portfolio` folder directly into the dotted box.
+5. Netlify will instantly upload your files and generate a live link.
+6. You can go to "Site settings" -> "Domain management" to customize the random name they give you (e.g., change it to `shriram-portfolio.netlify.app`).
+
+=============================================
+UPDATING YOUR SITE LATER
+=============================================
+If you use Git/GitHub integration (with Vercel, Netlify, or GitHub Pages), every time you push a new commit to your repository, your live website will update automatically!
+
+If you used the "Drag & Drop" method, you will need to re-drag and drop your folder into the dashboard to overwrite the old files whenever you make changes.
